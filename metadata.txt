@@ -1,0 +1,25 @@
+[general]
+name=LidarBC Batch Downloader
+qgisMinimumVersion=3.16
+description=Batch download Lidar point clouds, DEMs, and DSMs from the Government of British Columbia LidarBC Open Data Portal by drawing one or more areas of interest.
+about=This plugin allows users to draw one or more areas of interest on the map and batch download matching Lidar tiles, including LAZ point clouds, DEMs, and DSM rasters, from the Government of British Columbia LidarBC ArcGIS REST Feature Server. Downloads are processed sequentially and automatically organized into subfolders by product type and scale. The plugin also supports filtering duplicate tile versions by date, allowing users to download the latest, oldest, or all available versions.
+    .
+    Disclaimer: Although every effort has been made to provide accurate information and locations, the Government of British Columbia makes no representation or warranties regarding the accuracy of information from this plugin, nor will it accept responsibility for errors or omissions. Access to and/or content of this plugin may be suspended, discontinued, or altered, in part or in whole, at any time, for any reason, with or without prior notice, at the discretion of the Government of British Columbia.
+    .
+    Copyright Province of British Columbia (http://www2.gov.bc.ca/gov/content/home/copyright), Ministry of Water, Land and Resource Stewardship.
+    .
+    A GeoBC Production (https://www2.gov.bc.ca/gov/content/data/about-data-management/geobc).
+version=1.7.3
+author=Spencer Floyd
+email=Lidar@gov.bc.ca
+tracker=
+repository=
+homepage=https://lidar.gov.bc.ca/
+category=Web
+icon=icon.png
+experimental=False
+deprecated=False
+tags=lidar,arcgis,rest,download,batch,bc,british columbia,dem,dsm,point cloud,laz,geobc
+hasProcessingProvider=no
+server=False
+license=GPL-2.0-or-later
